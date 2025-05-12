@@ -1,9 +1,6 @@
-# 🧠 從零開始打造 GPT 語言模型 - 全課程筆記整理（by Elliot Arledge）
+# 🧠 從零開始打造 GPT 語言模型 
 
-> 📘 課程名稱：Learn how to build your own large language model, from scratch  
-> 🎓 講者：Elliot Arledge  
-> 🧪 框架：PyTorch + Jupyter Notebook  
-> 🔗 原始碼：[GitHub](https://github.com/Infatoshi/fcc-intr)
+> 
 
 ---
 
@@ -209,7 +206,7 @@ Pylzma 是一個用於 `.7z` 格式解壓的 Python 模組，但編譯過程可�
 
 - 啟動命令：
 
-  ```
+   ```
   bash
 
 
@@ -236,7 +233,7 @@ Pylzma 是一個用於 `.7z` 格式解壓的 Python 模組，但編譯過程可�
 
 📁 建議存放位置：
 
-```
+  ```
 css
 
 
@@ -252,7 +249,7 @@ project-folder/
 
 - 使用 Python 開啟 `input.txt`：
 
-  ```
+```
   python
 
 
@@ -304,7 +301,7 @@ project-folder/
 ```python
 with open('input.txt', 'r', encoding='utf-8') as f:
     text = f.read()
-```
+  ```
 
 - `text` 變數現在是整本書的文字內容（長字串）
 
@@ -2623,7 +2620,7 @@ learning_rate = 1e-4  # 若預訓練為 3e-4，微調建議調低
   ```text
   ### User:
   Hello, how are you?
-
+  
   ### Assistant:
   I'm good! How can I help you today?
   ```
